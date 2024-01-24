@@ -1,0 +1,11 @@
+Type:
+  Example: &example
+    TypeName: example type name
+    Color: example color
+
+EnchantName:
+  Namespace: 'namespace'
+  Name: 'Enchantment name'
+  RegisterPlugin: Extend plugin name
+  #Type is
+  Type: *example
